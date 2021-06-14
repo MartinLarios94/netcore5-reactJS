@@ -1,7 +1,8 @@
 export interface pelicula {
     id: number;
     titulo: string;
-    poster: string
+    poster: string;
+    director: string;
 }
 
 export interface landingPageDTO {
